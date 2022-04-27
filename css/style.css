@@ -269,3 +269,9 @@ img {
 .button--white .button__paw use {
   fill: #fffefd;
 }
+
+@media (max-width: 1023px) {
+}
+
+@media (max-width: 767px) {
+}

@@ -289,6 +289,11 @@ img {
 
   .advantages__list .advantages__item {
     margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .main h3 {
+    font-size: 20px;
   }
 
   .advantages__list .advantages__item:nth-child(even) {
@@ -313,7 +318,6 @@ img {
 
   .advantages__list .advantages__item {
     margin-right: 0;
-    margin-bottom: 30px;
   }
 
   .center {

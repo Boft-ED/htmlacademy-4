@@ -278,6 +278,11 @@ img {
     padding: 140px 0px 530px 0px;
   }
 
+  .advantages {
+    background-position: 115% 0px;
+    background-size: 350px 350px;
+  }
+
   .advantages__item {
     width: 47.3%;
     min-height: 285px;
@@ -299,6 +304,12 @@ img {
   .advantages__list .advantages__item:nth-child(even) {
     margin-right: 0px;
   }
+
+  .advantages__icon,
+  .advantages img {
+    height: 75px;
+    width: 75px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -306,6 +317,10 @@ img {
     text-align: center;
     background-image: url("../img/koteika-mobile@1x.jpg");
     padding: 50px 0px 230px 0px;
+  }
+
+  .advantages {
+    background-size: 250px 250px;
   }
 
   .advantages__item {
@@ -349,6 +364,12 @@ img {
     font-size: 16px;
   }
 
+  .main h2,
+  .main b {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
   .advantages__item--temp p {
     padding-right: 0;
     font-size: 15px;
@@ -358,5 +379,12 @@ img {
   .advantages img {
     height: 60px;
     width: 60px;
+  }
+}
+
+@media (max-width: 414px) {
+  .advantages {
+    background-position: 125% 48px;
+    background-size: 150px 150px;
   }
 }
